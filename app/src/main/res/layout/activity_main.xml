@@ -4,18 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/nfc_background"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btntopup"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:src="@drawable/nfc_img" />
+
+    <Button
+        android:id="@+id/btntopup"
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/nfc_button"
+        android:text="Top Up" />
 
     <Button
         android:id="@+id/btnbayar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_width="350dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/nfc_button"
+        android:text="Pembayaran" />
 </LinearLayout>
